@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+/* Add Custom Styles */
+@theme {
+  /* Background Color */
+  --color-gold: #906929;
+  --color-navy: #051C2C;
+  --color-grey: #D7D6DF;
+  --color-darken: #F8F8F8;
+  --color-light: #FFFFFF;
+  
+  /* System Color */
+  --color-successful-hover: #298267;
+  --color-successful: #3AC0A0;
+  --color-successful-secondary: #E7F4E8;
+  
+  --color-warning-hover: #E86339;
+  --color-warning: #FFB37C;
+  --color-warning-secondary: #FFF4E4;
+  
+  --color-error-hover: #ED3241;
+  --color-error: #FF616D;
+  --color-error-secondary: #FFE2E5;
+  
+  /* Fonts */
+  /* --font-poppins: Poppins, sans-serif */
+  --default-font-family: Poppins, 'sans-serif';
+}
+
+/* Import Custom Fonts */
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/src/assets/fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  src: url(/src/assets/fonts/Poppins/Poppins-Medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  src: url(/src/assets/fonts/Poppins/Poppins-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/src/assets/fonts/Poppins/Poppins-Bold.ttf) format('truetype');
+}
+
