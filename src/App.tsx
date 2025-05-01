@@ -1,12 +1,10 @@
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routers";
 
 
 function App() {
   return (
-    <>
-      <div className="min-h-screen">
-        <h1 className="text-lg underline">Hello world!</h1>
-      </div>
-    </>
+    <RouterProvider router={router}/>
   );
 }
 
