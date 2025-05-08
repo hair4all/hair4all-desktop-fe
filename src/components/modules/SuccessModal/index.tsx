@@ -1,5 +1,5 @@
 import successVector from "@/assets/images/secure.png"
-import { Dialog, DialogContent } from "../ui/dialog"
+import { Dialog, DialogContent } from "../../ui/dialog"
 
 interface SuccessModalProps {
     isOpen: boolean

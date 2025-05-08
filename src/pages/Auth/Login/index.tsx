@@ -8,7 +8,7 @@ import authImage from "@/assets/images/auth-img.png"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form"
-import SuccessModal from "@/components/SuccessModal"
+import SuccessModal from "@/components/modules/SuccessModal"
 
 const formSchema = z.object({
     username: z.string().min(1, {message: "Username is required"}),
